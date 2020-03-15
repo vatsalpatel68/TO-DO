@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.Heading{
+    background-image:linear-gradient( to bottom right,#7A7FBA,#11C37C);
+    color:#C71585;
+    font-family:cursive;
+    height:300px;
+    width:100%;
+    font-size:150px;
+    line-height: 300px;
+    text-align: center;
+    opacity:0.8;
+}
+
+.inputField{
+    height: 100px;
+    width : 100%;
+    font-size: 50px;
+    line-height: 100px;
+    border-bottom: 2px solid gray;
+    text-transform: capitalize;
+    padding-left:20px ;
+}
+
+.SubmitButton{
+    display: none;
+}
+
+
+.list-items:nth-child(odd) button{
+    height: 100px;
+    width:100%;
+    font-size:50px;
+    font-family: cursive;
+    background-image: linear-gradient(to right , #bdc3c7 , #2c3e50);
+    line-height: 100px;
+    word-wrap: wrap;
+    border-bottom: 1px solid black;
+    padding-left:10px;
+}
+
+.list-items:nth-child(even) button{
+    height: 100px;
+    width:100%;
+    font-size:50px;
+    font-family: cursive;
+    background-image: linear-gradient(to right ,#2193b0,#6dd5ed);
+    line-height: 100px;
+    word-wrap: wrap;
+    border-bottom: 1px solid black;
+    padding-left:10px;
+}
